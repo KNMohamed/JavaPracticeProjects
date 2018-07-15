@@ -2,12 +2,6 @@ import java.util.*;
 
 public class PrimeNumberCalculator{
 
-    private int num;
-    
-    public PrimeNumberCalculator(int num){
-        this.num = num;
-    }
-
   public static void main(String[] args)
   {
     Scanner in = new Scanner(System.in);
@@ -29,7 +23,7 @@ public class PrimeNumberCalculator{
     return true;
   }
   
-  
+  //Print all prime numbers up to a given upper limit
   public static void PrintPrimeNumbers(int upperLimit)
   {
     for(int i = 1; i <= upperLimit; i++){
